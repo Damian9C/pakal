@@ -18,9 +18,7 @@ export default {
 </script>
 
 <style>
-
 *{
   font-family: 'Poppins', serif;
 }
-
 </style>
