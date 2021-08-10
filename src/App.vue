@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <banner-home/>
     <v-main>
       <router-view/>
     </v-main>
@@ -8,9 +9,10 @@
 
 <script>
 
+import BannerHome from "./components/home/bannerHome";
 export default {
   name: 'App',
-
+  components: {BannerHome},
   data: () => ({
     //
   }),
@@ -18,7 +20,5 @@ export default {
 </script>
 
 <style>
-*{
-  font-family: 'Poppins', serif;
-}
+
 </style>
