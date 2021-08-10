@@ -1,12 +1,9 @@
 <template>
   <div>
-    <div class="mainBanner">
-      <v-spacer/>
-
-      <v-spacer/>
+    <div class="mainBanner" id="mainBanner">
+      <img src="../../static/logo.png"/>
+      <h1 class="Poppins--Bold">INSTITUTO<br/>PAKAL</h1>
     </div>
-    <h1 class="Poppins--Bold">INSTITUTO<br/>PAKAL</h1>
-    TEXTO AL AZAR
   </div>
 </template>
 <script>
@@ -17,23 +14,41 @@ export default {
 
 <style scoped>
 
-.mainBanner {
-  position: absolute;
-  overflow: hidden;
-  padding: 16px;
-  background-image: url("../../static/logo.png");
-  background-size: 40em;
-  background-repeat: no-repeat;
-  filter: opacity(40%);
-  width: 100vw;
-  height: 100vh;
-  z-index: 100;
+.mainBanner{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-bottom: 2rem;
 }
 
-h1 {
-  padding: 10rem 8rem 15rem 40rem;
+.mainBanner img{
+  opacity: .1;
+  width: 60vw;
+  z-index: 1;
+}
+
+h1{
+  margin-top: 24rem;
   font-size: 64px;
   color: #343434;
-  z-index: 1;
+  z-index: 2;
+}
+
+@media screen and (max-width: 900px) {
+  h1{
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mainBanner{
+    grid-template-columns: 100%;
+  }
+  h1{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .mainBanner img{
+    width: 100vw;
+  }
 }
 </style>
