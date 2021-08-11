@@ -40,7 +40,7 @@ export default {
       },
       {
         title: 'Carreras',
-        route: 'mainBanner'
+        route: 'career'
       },
       {
         title: 'Contacto',

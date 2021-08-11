@@ -53,7 +53,6 @@ export default {
 .aboutMain--title{
   font-size: 2.5rem;
   text-align: center;
-  width: 100vw;
   padding: 3rem 0 2rem;
 }
 

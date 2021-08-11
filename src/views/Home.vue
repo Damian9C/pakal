@@ -3,8 +3,7 @@
     <main-banner/>
 
     <about/>
-
-
+    <career/>
     <main-footer/>
   </div>
 </template>
@@ -14,9 +13,10 @@
   import MainBanner from "../components/home/mainBanner";
   import About from "../components/home/about";
   import MainFooter from "../components/home/mainFooter";
+  import Career from "../components/home/career";
   export default {
     name: 'Home',
-    components: {MainFooter, About, MainBanner, BannerHome},
+    components: {Career, MainFooter, About, MainBanner, BannerHome},
   }
 </script>
 

@@ -2,7 +2,7 @@
   <div>
     <div class="mainBanner" id="mainBanner">
       <img src="../../static/logo.png"/>
-      <h1 class="Poppins--Bold">INSTITUTO<br/>PAKAL</h1>
+      <h1 class="Poppins--Bold">INSTITUTO<br/>PAKAL<br/>COACALCO</h1>
     </div>
   </div>
 </template>
@@ -28,7 +28,7 @@ export default {
 
 h1{
   margin-top: 24rem;
-  font-size: 64px;
+  font-size: 60px;
   color: #343434;
   z-index: 2;
 }
@@ -36,6 +36,7 @@ h1{
 @media screen and (max-width: 900px) {
   h1{
     margin-top: 15rem;
+    font-size: 45px;
   }
 }
 
@@ -46,6 +47,7 @@ h1{
   h1{
     margin-top: 1rem;
     margin-left: 1rem;
+    font-size: 35px;
   }
   .mainBanner img{
     width: 100vw;
