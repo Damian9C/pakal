@@ -1,13 +1,10 @@
 <template>
-  <div>
+  <div class="bannerHome">
     <v-navigation-drawer v-model="isActive" temporary app>
       <v-list-item class="mt-2">
         <div class="d-flex flex-column">
           <span class="app-logo-title">
-            Christopher Gerardy
-          </span>
-          <span class="app-bar-subhead">
-            Desarrollador web
+            Instituto Pakal Coacalco
           </span>
         </div>
       </v-list-item>
@@ -25,7 +22,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar elevation="0" class="app-bar-style" color="white" dense app>
+    <v-app-bar elevation="0" fixed class="app-bar-style" color="white" dense app>
       <img src="../../../public/logoSfn.png" height="80%"/>
       <v-app-bar-title>
         Instituto Pakal
@@ -35,8 +32,8 @@
       <div class="d-none d-md-flex">
         <v-btn
             v-for="(item, j) of menuLinks" :key="j"
-            class="menu-links"
-            plain
+            text
+            small
             :ripple="false"
             @click="scrollToSection(item.route)"
         >
@@ -47,7 +44,7 @@
       <div class="d-flex d-md-none">
         <v-btn icon @click="openDrawer">
           <v-icon>
-            menu
+            mdi-menu
           </v-icon>
         </v-btn>
       </div>
@@ -63,20 +60,16 @@ export default {
     menuLinks: [
       {
         title: 'Inicio',
-        route: 'inicio',
+        route: 'mainBanner',
       },
       {
-        title: 'Sobre mi',
-        route: 'sobre_mi',
+        title: 'Acerca de',
+        route: 'aboutUs',
       },
       {
-        title: 'Portafolio',
-        route: 'portafolio',
+        title: 'Carreras',
+        route: 'career',
       },
-      {
-        title: 'Contacto',
-        route: 'contacto',
-      }
     ]
   }),
   methods: {
@@ -95,6 +88,9 @@ export default {
 </script>
 
 <style scoped>
+.bannerHome{
+}
+
 .app-bar-content {
   display: flex;
   width: 100%;
