@@ -4,6 +4,7 @@
 
     <about/>
     <career/>
+    <contact/>
     <main-footer/>
   </div>
 </template>
@@ -14,9 +15,10 @@
   import About from "../components/home/about";
   import MainFooter from "../components/home/mainFooter";
   import Career from "../components/home/career";
+  import Contact from "../components/home/contact";
   export default {
     name: 'Home',
-    components: {Career, MainFooter, About, MainBanner, BannerHome},
+    components: {Contact, Career, MainFooter, About, MainBanner, BannerHome},
   }
 </script>
 

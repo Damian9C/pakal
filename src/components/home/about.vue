@@ -11,7 +11,7 @@
       <div class="aboutDetails__mission">
         <img src="../../static/star.png" class="aboutDetails--img"/><br/>
         <h2 class="Poppins--Bold">Mision</h2><br/>
-        <p class="aboutDetails--content">
+        <p class="aboutDetails--content Poppins">
           Formar personas íntegras, con una visión humanística y competitiva en su campo profesional, que persigan la búsqueda de una cultura propia y un servicio profesional para todo su entorno.
         </p>
       </div>
@@ -19,7 +19,7 @@
       <div class="aboutDetails__view">
         <img src="../../static/eye.png" class="aboutDetails--img"/><br/>
         <h2 class="Poppins--Bold">Vision</h2><br/>
-        <p class="aboutDetails--content">
+        <p class="aboutDetails--content Poppins">
           Para el año 2021 debemos ser la institución educativa más reconocida en la zona por sus egresados, quienes promoverán la competitividad a través de modelos y sistemas para el desarrollo de su comunidad.
         </p>
       </div>
@@ -27,7 +27,7 @@
       <div class="aboutDetails__objective">
         <img src="../../static/img.png" class="aboutDetails--img"/><br/>
         <h2 class="Poppins--Bold">Valores</h2><br/>
-        <p class="aboutDetails--content">
+        <p class="aboutDetails--content Poppins">
           OJEL - Amor<br/>
           JAAJIL - Trabajo<br/>
           YAJ - Conocimiento<br/>

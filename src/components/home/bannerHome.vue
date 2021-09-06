@@ -67,9 +67,13 @@ export default {
         route: 'aboutUs',
       },
       {
-        title: 'Carreras',
+        title: 'Licenciaturas',
         route: 'career',
       },
+      {
+        title: 'Contacto',
+        route: 'contact'
+      }
     ]
   }),
   methods: {
