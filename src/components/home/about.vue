@@ -3,36 +3,39 @@
     <div class="aboutMain" id="aboutUs">
       <p class="aboutMain--title Poppins--Bold">¿Quienes Somos?</p>
       <p class="aboutMain--content Poppins">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet aperiam assumenda dignissimos eaque facere fuga fugit harum hic illum ipsa nihil, praesentium quam quia quo, unde vel. Labore, non?
+        Somos un grupo de profesionistas entusiastas dedicados y comprometidos con la educación mexicana, nos hemos reunido para formar una Institución donde se encuentren presente los valores que se han perdido en México, el amor, el trabajo y conocimiento, así como la lealtad y la honradez.
       </p>
     </div>
 
     <div class="aboutDetails Poppins">
       <div class="aboutDetails__mission">
-        <h2 class="Poppins--Bold">Mision</h2>
-        <p class="aboutDetails--content">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A blanditiis dolore ducimus eius explicabo, facilis fuga impedit ipsum molestiae nihil nostrum numquam odit perferendis perspiciatis quasi, quos tempore unde voluptatibus?
+        <img src="../../static/star.png" class="aboutDetails--img"/><br/>
+        <h2 class="Poppins--Bold">Mision</h2><br/>
+        <p class="aboutDetails--content Poppins">
+          Formar personas íntegras, con una visión humanística y competitiva en su campo profesional, que persigan la búsqueda de una cultura propia y un servicio profesional para todo su entorno.
         </p>
       </div>
 
       <div class="aboutDetails__view">
-        <h2 class="Poppins--Bold">Vision</h2>
-        <p class="aboutDetails--content">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad debitis delectus deleniti dignissimos earum id illo itaque nihil, nisi placeat quia quidem rem saepe sapiente, sequi sit temporibus ut vero?
+        <img src="../../static/eye.png" class="aboutDetails--img"/><br/>
+        <h2 class="Poppins--Bold">Vision</h2><br/>
+        <p class="aboutDetails--content Poppins">
+          Para el año 2021 debemos ser la institución educativa más reconocida en la zona por sus egresados, quienes promoverán la competitividad a través de modelos y sistemas para el desarrollo de su comunidad.
         </p>
       </div>
 
       <div class="aboutDetails__objective">
-        <h2 class="Poppins--Bold">Objetivos</h2>
-        <p class="aboutDetails--content">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi consequuntur cumque, delectus deleniti dolor ducimus enim facere id illo incidunt modi molestiae numquam placeat quidem recusandae repellendus repudiandae sint?
+        <img src="../../static/img.png" class="aboutDetails--img"/><br/>
+        <h2 class="Poppins--Bold">Valores</h2><br/>
+        <p class="aboutDetails--content Poppins">
+          OJEL - Amor<br/>
+          JAAJIL - Trabajo<br/>
+          YAJ - Conocimiento<br/>
+          KAXÁANT - Lealtad, Honradez
         </p>
       </div>
-      <img src="../../static/star.png" class="aboutDetails--img"/>
 
-      <img src="../../static/eye.png" class="aboutDetails--img"/>
 
-      <img src="../../static/img.png" class="aboutDetails--img"/>
     </div>
   </div>
 </template>
@@ -82,6 +85,12 @@ export default {
 @media screen and (max-width: 950px) {
   .aboutMain--content{
     padding: 0 5rem 4rem;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .aboutDetails{
+    grid-template-columns: 100%;
   }
 }
 
