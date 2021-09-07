@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="aboutMain" id="aboutUs">
+    <div class="aboutMain" id="aboutUs"><br/>
       <p class="aboutMain--title Poppins--Bold">¿Quienes Somos?</p>
       <p class="aboutMain--content Poppins">
         Somos un grupo de profesionistas entusiastas dedicados y comprometidos con la educación mexicana, nos hemos reunido para formar una Institución donde se encuentren presente los valores que se han perdido en México, el amor, el trabajo y conocimiento, así como la lealtad y la honradez.
-      </p>
+      </p><br/>
     </div>
 
     <div class="aboutDetails Poppins">
@@ -62,7 +62,7 @@ export default {
 .aboutMain--content{
   text-align: center;
   padding: 0 15rem 4rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .aboutDetails{
