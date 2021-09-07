@@ -3,7 +3,7 @@
     <div class="career" id="career">
       <p class="career--tittle Poppins--Bold">Licenciaturas</p>
       <p class="career--subTittle Poppins">
-        Contamos con Licenciatuaras en 9 semestres<br/><br/><br/>
+        Contamos con Licenciatuaras en 9 cuatrimestres<br/><br/><br/>
 
         <img src="../../static/licenciated.png" class="career--img"/>
       </p><br/>
