@@ -29,7 +29,7 @@
         <a class="contactMedia__links--facebook contactMedia__links--facebookTxt" href="https://www.facebook.com/Instituto.PAKAL.Coacalco">
           <img src="../../static/facebook.png" class="contactMedia__links--img"/>
           <p class="contactMedia__links--facebookTxt">
-            Facebbok<br/>
+            Facebook<br/>
             Instituto PAKAL
           </p><br/>
         </a>
