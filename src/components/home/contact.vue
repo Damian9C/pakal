@@ -4,7 +4,7 @@
       Contacto<br/>
     </p>
     <p class="contact--content Poppins">
-      Puedes contactarnos atravez de los siguientes medios<br/><br/>
+      Puedes contactarnos a travez de los siguientes medios<br/><br/>
     </p>
     <div class="contactMedia">
 

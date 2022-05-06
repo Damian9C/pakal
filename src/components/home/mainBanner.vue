@@ -2,7 +2,7 @@
   <div>
     <div class="mainBanner" id="mainBanner">
       <img src="../../static/logo.png"/>
-      <h1 class="Poppins--Bold">INSTITUTO<br/>PAKAL<br/>COACALCO</h1>
+      <h1 class="Poppins--Bold">INSTITUTO<br/>PAKAL<br/><br/></h1>
     </div>
   </div>
 </template>
