@@ -4,7 +4,7 @@
       <v-list-item class="mt-2">
         <div class="d-flex flex-column">
           <span class="app-logo-title">
-            Instituto Pakal Coacalco
+            Instituto Pakal
           </span>
         </div>
       </v-list-item>
